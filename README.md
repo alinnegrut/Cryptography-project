@@ -62,7 +62,7 @@ Extracts the public key and saves it to `public_key.pem`.
 Create a `plaintext.txt` file containing your message. Then run:
 
 ```bash
-openssl rsautl -encrypt -inkey public_key.pem -pubin -in plaintext.txt -out encrypted.txt
+openssl pkeyutl -encrypt -inkey public_key.pem -pubin -in plaintext.txt -out encrypted.txt
 ```
 
 Encrypts the plaintext using the public key.
@@ -70,7 +70,7 @@ Encrypts the plaintext using the public key.
 ### 7. 📬 Decrypt the Message
 
 ```bash
-openssl rsautl -decrypt -inkey private_key.pem -in encrypted.txt -out decrypted.txt
+openssl pkeyutl -decrypt -inkey private_key.pem -in encrypted.txt -out decrypted.txt
 ```
 
 Decrypts the message using the private key and saves the result in `decrypted.txt`.
