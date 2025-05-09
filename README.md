@@ -81,7 +81,22 @@ In this step I compared `decrypted.txt` with `plaintext.txt` to ensure the messa
 
 ## 📸 Screenshots
 
-Screenshots demonstrating each step will be added here.
+Screenshots demonstrating each step:
+
+- Verifying OpenSSL version
+![image](https://github.com/user-attachments/assets/1f16ee26-ee24-49db-b411-957442418316)
+
+- Generating and verifying private key
+![image](https://github.com/user-attachments/assets/d53cfdfb-00b7-4ab2-aaeb-5ed289e3a92f)
+
+- Generating public key
+![image](https://github.com/user-attachments/assets/e849f721-b2ba-445a-8303-0dbdbb6ca8e6)
+
+- Writing a txt file containig a hidden message, encrypting the file, decrypting the file and checking the decrypted message
+![image](https://github.com/user-attachments/assets/dd9adc93-cec8-437a-9f3e-941f1c3c1f3d)
+
+
+
 
 ## 📌 Conclusion
 
