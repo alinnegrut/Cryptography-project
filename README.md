@@ -12,19 +12,23 @@ In this project I demonstrated how to use **OpenSSL** to perform basic RSA crypt
 
 ## 💻 Environments Used
  
-- Kali Linux (use appropriate OpenSSL distribution or package manager)
+- [Oracle Virtual Box](https://www.virtualbox.org/)
 - Kali Linux (use appropriate OpenSSL distribution or package manager)
 
 ## 🚶‍♂️ Project Walk-through
 
 ### 1. 🔧 Installing OpenSSL
 
-Install OpenSSL via your system’s package manager. Example for macOS:
-
+Install OpenSSL via used system’s package manager. Example for Kali Linux is ussualy installed, but we can we use the following CLI commands:
+- checking if OpenSSL is installed
 ```bash
-brew install openssl
+openssl version
 ```
-
+- Installing or updating OpenSSL
+```bash
+sudo apt update
+sudo apt install openssl -y
+```
 ### 2. 📁 Open Terminal or Command Prompt
 
 All subsequent steps are performed via terminal or command prompt.
