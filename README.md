@@ -73,11 +73,11 @@ Encrypts the plaintext using the public key.
 openssl pkeyutl -decrypt -inkey private_key.pem -in encrypted.txt -out decrypted.txt
 ```
 
-Decrypts the message using the private key and saves the result in `decrypted.txt`.
+Decrypting the message using the private key and saves the result in `decrypted.txt`.
 
 ### 8. ✅ Verify
 
-Compare `decrypted.txt` with `plaintext.txt` to ensure the message was accurately decrypted.
+In this step I compared `decrypted.txt` with `plaintext.txt` to ensure the message was accurately decrypted.
 
 ## 📸 Screenshots
 
