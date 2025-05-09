@@ -2,7 +2,7 @@
 
 ## 📄 Description
 
-In this project I demonstrate how to use **OpenSSL** to perform basic RSA cryptographic operations: generating key pairs, encrypting messages with a public key, and decrypting them with the corresponding private key. It is an introductory exercise in understanding public-key cryptography via the command line.
+In this project I demonstrated how to use **OpenSSL** to perform basic RSA cryptographic operations: generating key pairs, encrypting messages with a public key, and decrypting them with the corresponding private key using an an introductory exercise in understanding public-key cryptography via the command line.
 
 ## 🧰 Languages and Utilities Used
 
@@ -12,6 +12,7 @@ In this project I demonstrate how to use **OpenSSL** to perform basic RSA crypto
 
 ## 💻 Environments Used
  
+- Kali Linux (use appropriate OpenSSL distribution or package manager)
 - Kali Linux (use appropriate OpenSSL distribution or package manager)
 
 ## 🚶‍♂️ Project Walk-through
