@@ -13,7 +13,7 @@ In this project I demonstrated how to use **OpenSSL** to perform basic RSA crypt
 ## 💻 Environments Used
  
 - [Oracle Virtual Box](https://www.virtualbox.org/)
-- Kali Linux (use appropriate OpenSSL distribution or package manager)
+- Kali Linux
 
 ## 🚶‍♂️ Project Walk-through
 
