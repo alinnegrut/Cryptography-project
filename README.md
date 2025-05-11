@@ -19,7 +19,7 @@ In this project I demonstrated how to use **OpenSSL** to perform basic RSA crypt
 
 ### 1. 🔧 Installing OpenSSL
 
-Install OpenSSL via used system’s package manager. Example for Kali Linux is ussualy installed, but we can we use the following CLI commands:
+Install OpenSSL via used system’s package manager. Example for Kali Linux is usually installed, but we can we use the following CLI commands:
 - checking if OpenSSL is installed
 ```bash
 openssl version
